@@ -8,7 +8,7 @@
 <div
 	class="bg-gradient-to-r from-red-300/80 via-amber-300/85 via-60% to-lime-200/80 bg-black h-fit pb-28"
 >
-	<div class="p-2 w-fit">
+	<div class="p-2 w-fit ml-2">
 		<h2 class="text-center text-3xl text-gray-50 w-2/3 p-3 font-semibold tracking-wide">
 			<a href="/">{title}</a>
 		</h2>
