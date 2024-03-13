@@ -10,7 +10,7 @@
 		<a href="/">{title}</a>
 	</h1>
 
-	<div class="grid grid-rows-1 justify-items-center grid-flow-col">
+	<nav class="grid grid-rows-1 justify-items-center grid-flow-col">
 		{#each pages as { title: headerTitle, links }}
 			<div>
 				<h3>{headerTitle}</h3>
@@ -20,5 +20,5 @@
 				{/each}
 			</div>
 		{/each}
-	</div>
+	</nav>
 </div>
