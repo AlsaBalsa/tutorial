@@ -11,40 +11,69 @@ export interface LinkSection {
 
 export const pages: LinkSection[] = [
   {
-    title: "Main",
+    title: "Art",
     links: [
       {
-        title: "About Me",
+        title: "Digital",
         href: "/about-me",
       },
       {
-        title: "Theatre",
+        title: "Painting",
+        href: "/theatre",
+      },
+      {
+        title: "Sketch",
+        href: "/",
+      },
+      {
+        title: "Sculpture",
+        href: "/",
+      },
+    ],
+  },
+  {
+    title: "Theatre",
+    links: [
+      {
+        title: "Props",
+        href: "/about-me",
+      },
+      {
+        title: "Scenic",
+        href: "/theatre",
+      },
+      {
+        title: "Costumes",
+        href: "/",
+      },
+    ],
+  },
+  {
+    title: "Design",
+    links: [
+      {
+        title: "Draftwork",
+        href: "/about-me",
+      },
+      {
+        title: "Rendering",
+        href: "/",
+      },
+      {
+        title: "Modeling",
         href: "/theatre",
       },
     ],
   },
   {
-    title: "Memes",
+    title: "About Me",
     links: [
       {
-        title: "About Me",
+        title: "Bio",
         href: "/about-me",
       },
       {
-        title: "Theatre",
-        href: "/theatre",
-      },
-    ],
-  },
-  {
-    title: "Memes",
-    links: [
-      {
-        title: "About Me",
-        href: "/about-me",
-      },
-      {
-        title: "Theatre",
+        title: "Resumes",
         href: "/theatre",
       },
     ],
